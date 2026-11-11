@@ -1,0 +1,13 @@
+:root { --zemin: #0b1a26; --kart: #10283a; --vurgu: #7fe8d5; --yazi: #eef3f8; --soluk: #9fb3c4; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--zemin); color: var(--yazi); font: 17px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+header { display: flex; align-items: center; gap: 18px; margin-bottom: 28px; }
+header img { width: 84px; height: 84px; border-radius: 50%; }
+h1 { margin: 0; font-size: 30px; line-height: 1.2; }
+h2 { margin-top: 32px; font-size: 21px; color: var(--vurgu); }
+a { color: var(--vurgu); }
+.soluk { color: var(--soluk); }
+.kart { background: var(--kart); border-radius: 14px; padding: 18px 22px; margin: 18px 0; }
+footer { margin-top: 40px; color: var(--soluk); font-size: 15px; }
+footer a { margin-right: 14px; }
